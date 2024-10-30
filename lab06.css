@@ -1,0 +1,181 @@
+
+.static-box{
+   
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    position: static;
+}
+
+.relative-box{
+    
+    top: 20px;
+    left: 30px;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+}
+
+.absolute-box{
+    height: 100px;
+    width: 200px;
+    background-color: beige;
+    top: 10px;
+    left: 15px;
+    position: absolute;
+}
+
+
+.fixed-box{
+    height: 100px;
+    width: 200px;
+    bottom: 10px;
+    right: 10px;
+    background-color: aquamarine;
+    position: fixed;
+}
+
+.sticky-box{
+    height: 100px;
+    width: 200px;
+    top: 0px;
+    background-color: aqua;
+    position: sticky;
+}
+
+
+.background-image {
+    width: 400px;
+    height: 300px;
+    background-image: url('https://placedog.net/500/300');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.background-image-repeat {
+    width: 400px;   
+    height: 300px;  
+    background-image: url('your-image-url.jpg'); 
+    background-repeat: repeat;
+}
+
+.box1{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.box2{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    z-index: 2;
+    left: 50px;
+    position: relative;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+
+
+  flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .child1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 5px;
+  }
+
+
+
+  .flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .child2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+  }
+
+
+  .flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .puppy{
+    width: 100px;
+  height: 100px;
+  background-color: rgb(171, 122, 255);
+  margin: 5px;
+ 
+  }
+
+
+.flex-align-center{
+display: flex;
+  align-items: center;
+  height: 200px;  
+}
+
+  .child3{
+    width: 100px;
+    background-color: black;
+    margin: 5px;
+  }
+
+
+
+  .flex-align-content{
+    display: flex;
+    flex-wrap:wrap ;
+    align-content: space-evenly;
+    height: 30px;
+  }
+
+.flex1{
+    width: 100px;
+    height: 75px;
+    background-color: azure;
+    
+}
+
+
+.flex-grow1 {
+    display: flex;
+  }
+  
+  .child5 {
+    width: 100px;
+    height: 100px;
+    background-color: lightsteelblue;
+    margin: 5px;
+  }
+  
+  .grow5 {
+    flex-grow: 2;
+  }
+  
